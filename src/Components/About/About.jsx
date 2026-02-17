@@ -52,7 +52,7 @@ export default function About() {
           {/* Resume Button */}
 
           <a 
-          href="https://drive.google.com/file/d/1kEUDa1Gx4rbYj-oQlpc2qDZfLkgxqkBf/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/1EuTx2QPxvwedz_kFUv4sUQ9tgYlc7T0R/view?usp=drivesdk"
           target="_blank"
           rel="resume"
           className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"

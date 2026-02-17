@@ -10,6 +10,9 @@ import githubLogo from './assets/tech_logo/github.png';
 import vscodeLogo from './assets/tech_logo/vscode.png';
 import cLogo from './assets/tech_logo/c.png';
 import cppLogo from './assets/tech_logo/cpp.png';
+import nodejsLogo from './assets/tech_logo/nodejs.png';
+import expressjsLogo from './assets/tech_logo/express.png';
+import mongodbLogo from './assets/tech_logo/mongodb.png';
 
 
 // Experience Section Logo's
@@ -24,8 +27,10 @@ import kdjlogo from './assets/education_logo/KdjLogo.jpeg'
 
 //Project sectionlogo's
 import movierecLogo from './assets/work_logo/movie_rec.png';
-import imagesearchLogo from './assets/work_logo/image_search.png';
-import tttlogo from './assets/work_logo/TTT.png'
+// import imagesearchLogo from './assets/work_logo/image_search.png';
+// import tttlogo from './assets/work_logo/TTT.png'
+import ecommerceLogo from './assets/work_logo/e-commerce.png'
+import imgLogo from './assets/work_logo/image-gallery.png'
 
 
 
@@ -59,6 +64,14 @@ export const SkillsInfo = [
       { name: 'VS Code', logo: vscodeLogo },
     ],
   },
+  {
+    title: 'Backend',
+    skills: [
+      { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+      { name: 'MongoDB', logo: mongodbLogo },
+    ],
+  },
 ];
 
   export const experiences = [
@@ -67,7 +80,7 @@ export const SkillsInfo = [
       img: Kuchoriyalogo,
       role: "Front-End Developer",
       company: "Kuchoriya Techsoft",
-      date: "Sep 2025 - Present",
+      date: "Oct 2025 - Present",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -75,6 +88,9 @@ export const SkillsInfo = [
         "JavaScript",
         "React JS",
         "Tailwind CSS",
+        "Node.js",
+        "Express.js",
+        "MongoDB",
       ],
     },
     {
@@ -138,23 +154,23 @@ export const SkillsInfo = [
     },
     {
       id: 1,
-      title: "Task Management APP",
+      title: "E-commerce Web Application (MERN Stack)",
       description:
-        "An efficient and customizable NPM package for validating email addresses. Built using React.js and Node.js, it provides robust validation features to help developers ensure that email inputs meet required formats and standards.",
-      image: imagesearchLogo,
-      tags: ["React JS", "HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jayeshmour44/New-Project.git",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Developed and deployed a fully responsive E-commerce web application using modern web technologies.The platform allows users to browse products, view detailed product pages, and interact with a smooth, user-friendly UI.Focused on clean UI, performance optimization, and real-world e-commerce workflows.",
+      image: ecommerceLogo,
+      tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
+      github: "https://github.com/jayeshmour44/eCommerce-Website-Frontend.git",
+      webapp: "https://e-commerce-website-frontend-zeta.vercel.app/",
     },
     {
       id: 2,
-      title: "Tic Tac Toe Game",
+      title: "Image Gallery Web Application (Full Stack)",
       description:
-        "Developed an interactive Tic Tac Toe game using HTML, CSS, and Javascript, allowing users to play against each other in a browser-based environment. Implemented game logic with Javascript to handle player turns, determine win condition, and reset the game, ensuring a smooth and functional experience.",
-      image: tttlogo,
-      tags: ["HTML", "CSS", "JavaScript"],
-      github: "https://github.com/jayeshmour44/New-Project.git",
-      webapp: "https://www.npmjs.com/package/cmtk-email-validator",
+        "Built a full-stack Image Gallery web application with a public user interface and a secure admin dashboard.Implemented Google Authentication using Firebase for users, while admins authenticate via JWT-based backend login.Developed RESTful APIs with Node.js and Express, connected to MongoDB Atlas, and integrated Cloudinary for imageupload, update, and deletion.",
+      image: imgLogo,
+      tags: ["React JS", "Node JS", "Express JS", "MongoDB"],
+      github: "https://github.com/jayeshmour44/image-gallery-frontend.git",
+      webapp: "https://image-gallery-frontend-flame.vercel.app/",
     },
 ];
 //     {
