@@ -13,6 +13,15 @@ import cppLogo from './assets/tech_logo/cpp.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import expressjsLogo from './assets/tech_logo/express.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
+import typescriptLogo from './assets/tech_logo/typescriptLogo.png';
+import nextjsLogo from './assets/tech_logo/nextjsLogo.png'
+import vercelLogo from './assets/tech_logo/vercelLogo.png'
+import renderLogo from './assets/tech_logo/renderLogo.png'
+import postmanLogo from './assets/tech_logo/postmanLogo.png'
+import chatgptLogo from './assets/tech_logo/chatgptLogo.png'
+import gitcopilotLogo from './assets/tech_logo/gitcopilotLogo.png'
+import claudeLogo from './assets/tech_logo/claudeLogo.png'
+import geminiLogo from './assets/tech_logo/geminiLogo.webp'
 
 
 // Experience Section Logo's
@@ -44,6 +53,8 @@ export const SkillsInfo = [
       { name: 'JavaScript', logo: javascriptLogo },
       { name: 'React JS', logo: reactjsLogo },
       { name: 'Tailwind CSS', logo: tailwindcssLogo },
+      { name: 'TypeScript', logo: typescriptLogo },
+      { name: 'Next.js', logo: nextjsLogo },
       
     ],
   },
@@ -57,30 +68,47 @@ export const SkillsInfo = [
     ],
   },
   {
+    title: 'Backend',
+    skills: [
+      { name: 'Node JS', logo: nodejsLogo },
+      { name: 'Express JS', logo: expressjsLogo },
+    ],
+  },
+  {
+    title: 'Database',
+    skills: [
+      { name: 'MongoDB', logo: mongodbLogo },
+    ]
+  },
+  {
     title: 'Tools',
     skills: [
       { name: 'Git', logo: gitLogo },
       { name: 'GitHub', logo: githubLogo },
       { name: 'VS Code', logo: vscodeLogo },
+      { name: 'Vercel', logo: vercelLogo },
+      { name: 'Render', logo: renderLogo },
+      { name: 'Postman', logo: postmanLogo },
     ],
   },
   {
-    title: 'Backend',
+    title: 'AI Tools',
     skills: [
-      { name: 'Node JS', logo: nodejsLogo },
-      { name: 'Express JS', logo: expressjsLogo },
-      { name: 'MongoDB', logo: mongodbLogo },
-    ],
-  },
+      { name: 'Chatgpt', logo: chatgptLogo },
+      { name: 'GitHub Copilot', logo: gitcopilotLogo },
+      { name: 'Claude', logo: claudeLogo },
+      { name: 'Gemini', logo: geminiLogo },
+    ]
+  }
 ];
 
   export const experiences = [
     {
       id: 0,
       img: Kuchoriyalogo,
-      role: "Front-End Developer",
+      role: "Full-stack Developer",
       company: "Kuchoriya Techsoft",
-      date: "Oct 2025 - Present",
+      date: "Oct 2025 - April 2026",
       desc: "Developed dynamic and scalable web applications using the MERN stack, handling both frontend and backend development. Collaborated with cross-functional teams to build responsive UI, implement RESTful APIs, and optimize application performance in an agile environment.",
       skills: [
         "HTML",
@@ -91,6 +119,7 @@ export const SkillsInfo = [
         "Node.js",
         "Express.js",
         "MongoDB",
+        "Next.js",
       ],
     },
     {

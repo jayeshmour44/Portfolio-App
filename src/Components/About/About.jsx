@@ -29,7 +29,7 @@ export default function About() {
           <h3 className="text-xl sm:text-2xl md:text-3xl font-semibold mb-4 text-[#8245ec] leading-tight">
             <span className="text-white">I am a </span>
             <ReactTypingEffect
-              text={["Front-End Developer", "Coder"]}
+              text={["Full-Stack Developer", "MERN Stack Developer", "Node.js Developer", "React.js Developer", "Back-end Developer"]}
               speed={100}
               eraseSpeed={50}
               typingDelay={500}
@@ -43,16 +43,13 @@ export default function About() {
           {/* About me para */}
 
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            Enthusiastic B.Tech graduate eager to begin a career in the IT
-            industry. Seeking an entry-level role where I can contribute to
-            software development, problem-solving, and continuous learning while
-            adding value to the organization.
+            Full Stack Developer with expertise in MERN Stack, Next.js and AI-powered web applications. Experienced in integrating LLM APIs, building secure REST APIs, implementing authentication, and developing scalable modern applications using AI-assisted development tools.
           </p>
 
           {/* Resume Button */}
 
           <a 
-          href="https://drive.google.com/file/d/1EuTx2QPxvwedz_kFUv4sUQ9tgYlc7T0R/view?usp=drivesdk"
+          href="https://drive.google.com/file/d/15idGveZJqG7y7_N8Hj0txLEhGCK9KNcP/view?usp=drivesdk"
           target="_blank"
           rel="resume"
           className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
